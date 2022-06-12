@@ -6,7 +6,7 @@ export default interface Cart{
     clean( onSuccess: Function ) : void;
     add( item: CartItem, onSuccess: Function ) : void;
     remove( item: CartItem, onSuccess: Function ) : void;
-    find( id: string, onSuccess: Function ) : void;
+    find( id: number, onSuccess: Function ) : void;
     total( onSuccess: Function ) : void;
     numberOfItems( onSuccess: Function ) : void;
 
