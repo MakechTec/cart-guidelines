@@ -1,3 +1,4 @@
+
 export interface Cart{
     
     list( onSuccess: Function ) : void;
@@ -7,6 +8,7 @@ export interface Cart{
     find( id: number, onSuccess: Function ) : void;
     total( attributeName: string, onSuccess: Function ) : void;
     numberOfItems( onSuccess: Function ) : void;
+    findItemByAttribute( attribute: Attribute, onSuccess: Function ) : void;
 
 }
 
@@ -14,7 +16,6 @@ export class CartItem {
     id: number;
     attributes: Array<Attribute>;
 }
-
 export class Attribute{
     name: string;
     value: any;
