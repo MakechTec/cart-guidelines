@@ -9,5 +9,6 @@ export default interface Cart{
     find( id: number, onSuccess: Function ) : void;
     total( attributeName: string, onSuccess: Function ) : void;
     numberOfItems( onSuccess: Function ) : void;
+    isProductInCart( productId: number, onSuccess: Function ) : void;
 
 }
