@@ -1,3 +1,4 @@
+import Attribute from "./Attribute";
 import CartItem from "./CartItem";
 
 export default interface Cart{
@@ -9,6 +10,6 @@ export default interface Cart{
     find( id: number, onSuccess: Function ) : void;
     total( attributeName: string, onSuccess: Function ) : void;
     numberOfItems( onSuccess: Function ) : void;
-    isProductInCart( productId: number, onSuccess: Function ) : void;
+    findItemByAttribute( attribute: Attribute, onSuccess: Function ) : void;
 
 }

@@ -8,7 +8,7 @@
     "url": "git+https://github.com/angeldomp49/cart-guidelines"
   },
   "name": "@makechtec/cart-guidelines",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Guidelines to develop Cart Implementations",
   "main": "index.ts",
   "devDependencies": {},
